@@ -1,0 +1,46 @@
+
+.detyre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 900px;
+    height: 500px;
+    background-color: teal;
+    position: absolute;
+    left: 20%;
+    top: 10%;
+    border-radius: 20px;
+}
+
+button{
+    width: 180px;
+    height: 100px;
+    background-color: rgb(122, 162, 162);
+    color: white;
+    font-size: 40px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+#start:hover{
+    background-color: rgb(78, 144, 78);
+}
+#start:active{
+    background-color: rgb(47, 105, 47);
+}
+#end:hover{
+    background-color: rgb(191, 87, 87);
+}
+#end:active{
+    background-color:  rgb(152, 54, 54);
+}
+.brenda{
+    display: flex;
+    gap: 70px;
+}
+h1{
+    font-size: 80px;
+}
+#output{
+    font-size: 40px;
+}
